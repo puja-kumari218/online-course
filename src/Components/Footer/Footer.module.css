@@ -1,0 +1,97 @@
+.FooterMainContainer {
+  background-color: #000;
+  color: #fff;
+  width: 1515px;
+  height: 530px;
+  position: relative;
+  right: 160px;
+  padding-top: 50px;
+}
+
+.leftSectionHeading {
+  position: relative;
+  left: 220px;
+  width: 460px;
+  top: 24px;
+}
+
+.leftSectionHeading h2 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 80px;
+  font-size: 23px;
+  left: 8px;
+  color: rgb(101, 101, 101);
+  cursor: pointer;
+}
+
+.socialIcons>* {
+  margin-right: 10px;
+}
+
+.rightSection {
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 820px;
+  bottom: 89px;
+}
+
+.companyInfoHeading h2 {
+  font-size: 20px;
+  font-weight: 200;
+  color: rgb(101, 101, 101);
+}
+
+.companyInfoHeading>* {
+  margin-bottom: 13px;
+}
+
+.companyInfoHeading p {
+  cursor: pointer;
+}
+
+.BottomContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  position: relative;
+  left: 220px;
+  margin: 20px 0;
+}
+
+hr {
+  border: 1px solid rgb(101, 101, 101);
+  width: 1120px;
+  position: relative;
+  left: 210px;
+}
+
+.EnvisionleftLineIcon {
+  font-size: 27px;
+}
+
+.verticalLine {
+  border-left: 1.5px solid rgb(101, 101, 101);
+  margin: 0 10px;
+
+}
+
+.footerBottom {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 200px;
+  padding: 20px;
+  color: rgb(101, 101, 101);
+  font-size: 17px;
+
+}

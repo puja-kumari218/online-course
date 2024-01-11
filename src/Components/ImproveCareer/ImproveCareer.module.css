@@ -1,0 +1,89 @@
+/* ImproveCareer.module.css */
+.ImproveCareerMainContainer {
+  width: 1515px;
+  background: #fafafa;
+  position: relative;
+  right: 170px;
+
+}
+
+.improveCareerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 500px;
+}
+
+.improveCareerContainerHeading {
+  position: relative;
+  right: 200px;
+  top: 28px;
+
+}
+
+.improveCareerContainerHeading h2 {
+  font-size: 36px;
+  font-weight: 500;
+  position: relative;
+  right: 50px;
+}
+
+.cardContainer {
+  position: relative;
+  top: 80px;
+  display: flex;
+  width: 1100px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 0;
+  position: relative;
+
+}
+
+.card {
+  width: 490px;
+  height: 240px;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  justify-content: space-around;
+
+}
+
+.card h2 {
+  font-size: 27px;
+  font-weight: 500;
+  margin-top: 6px;
+
+
+}
+
+.card p {
+  font-size: 17px;
+  margin-top: 14px;
+  letter-spacing: 0.6px;
+  color: rgb(86, 86, 86);
+  letter-spacing: 1px;
+
+}
+
+.blueBtn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  top: 33px;
+  font-size: 17px;
+}
+
+.blueBtn:hover {
+  background-color: #062749;
+}

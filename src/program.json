@@ -1,0 +1,29 @@
+{
+    "programArray": [
+        {
+            "programType": "Paid Program",
+            "programTitle": "Sales & Business Development",
+            "programdescription": "Our Sales & Business Development Program is a dynamic and comprehensive initiative designed to equip your sales teams with the skills, strategies, and knowledge they need to excel in today's competitive marketplace. Whether you're looking to boost revenue, expand your client base, or improve overall sales performance, our program provides the roadmap to success",
+            "button": "Learn more" 
+        },
+        {
+            "programType": "Paid Program",
+            "programTitle": "Leadership & Sales Management",
+            "programdescription": "Our Leadership & Sales Management Program is a specialized training initiative designed to nurture the leadership and sales management skills necessary to drive organizational success. This program is ideal for professionals who are looking to take on leadership roles within sales teams or organizations seeking to elevate their sales management strategies.",
+            "button": "Learn more"  
+        },
+
+        {
+            "programType": "Free Program",
+            "programTitle": "Compliance and Regulatory Training",
+            "programdescription": "Our comprehensive training addresses a wide range of compliance areas. including industry-specific regulations, data privacy laws, financial regulations, and ethical standards. Whether you operate in healthcare, finance, or any regulated sector, our program ensures that your team stays well-informed and compliant.",
+            "button": "Learn more" 
+        },
+        {
+            "programType": "Free Program",
+            "programTitle": "Change Management Workshop",
+            "programdescription": "This workshop focuses on change strategies, communication techniques, and practical implementation methods to ensure that your organization's transitions are smooth and well-received by your team. Whether you're facing a restructuring, technology adoption, or a shift in company culture, our workshop provides valuable insights and actionable strategies",
+            "button": "Learn more" 
+        }
+    ]
+}

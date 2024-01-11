@@ -1,0 +1,99 @@
+.ProgramsMainContainer {
+    width: 1520px;
+    position: relative;
+    right: 170px;
+    background: #fafafa;
+    padding-bottom: 20px;
+}
+
+.programsContainer {
+    background: #fafafa;
+    padding: 30px 0;
+}
+
+.programHeaderContainer {
+    text-align: center;
+}
+
+.programHeaderContainer>h1 {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(50, 47, 47);
+
+
+}
+
+.programHeaderContainer>p {
+    margin-bottom: 10px;
+    color: rgb(86, 86, 86);
+    font-size: 14px;
+    letter-spacing: 1.5px;
+
+}
+
+
+.programDetailsContainer {
+    display: flex;
+    width: 1200px;
+    height: 550px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;
+    position: relative;
+    left: 170px;
+}
+
+.programCardContainer {
+    padding: 20px;
+    width: 540px;
+    height: 245px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.programCardType {
+    font-size: 15px;
+    color: blue;
+}
+
+.programCardTitie {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(50, 47, 47);
+
+}
+
+.programCardDescription {
+    color: rgb(86, 86, 86);
+    font-size: 14px;
+
+}
+
+.programCardFooter button {
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    border-radius: 9px;
+    background-color: #fff;
+    border: 1px solid rgb(159, 159, 159);
+    color: rgb(67, 67, 67);
+}
+
+
+.greenText {
+    color: green;
+    font-size: 15px;
+
+}

@@ -1,0 +1,64 @@
+/* Header.module.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: black;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+  position: relative;
+  left: 10px;
+  gap: 7px;
+}
+
+.navItems {
+  display: flex;
+  justify-content: space-between;
+  width: 520px;
+  position: relative;
+  left: 200px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.navItems span {
+  margin-right: 15px;
+  cursor: pointer;
+
+}
+
+.rightSection {
+  display: flex;
+}
+
+.loginBtn,
+.registerBtn {
+  margin-left: 15px;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 9px;
+  font-weight: bold;
+}
+
+.loginBtn {
+  background-color: #2069f5;
+  color: white;
+
+}
+
+.registerBtn {
+  background-color: #ffff;
+  border: 1px solid rgb(180, 180, 180);
+}

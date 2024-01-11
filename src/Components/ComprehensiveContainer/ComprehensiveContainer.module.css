@@ -1,0 +1,163 @@
+/* ComprehensiveContainer.module.css */
+
+.comprehensiveMainContainer {
+  width: 1515px;
+  position: relative;
+  right: 170px;
+
+}
+
+.comprehensiveContainer {
+  padding: 80px 0;
+  width: 1524px;
+  background: #fafafa;
+}
+
+.centerHeading {
+  text-align: center;
+  position: relative;
+}
+
+.centerHeading h1 {
+  color: rgb(50, 47, 47);
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.centerHeading p {
+  letter-spacing: 1px;
+  position: relative;
+  top: 13px;
+  color: rgb(116, 113, 113);
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.cardSection {
+  justify-content: space-around;
+  position: relative;
+  top: 55px;
+  padding: 40px;
+  display: flex;
+}
+
+.leftCard {
+  width: 540px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  padding: 12px;
+  position: relative;
+  left: 80px;
+  height: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+}
+
+.rightCard {
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 500px;
+  width: 540px;
+
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  position: relative;
+  right: 60px;
+  background: #ffffff;
+
+}
+
+
+
+.CardTitle {
+  padding: 20px;
+  color: rgb(50, 47, 47);
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.CardText {
+  padding: 15px;
+  color: rgb(65, 65, 65);
+  font-size: 17px;
+}
+
+
+.CardTitle1 {
+  padding: 20px;
+  color: rgb(50, 47, 47);
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.CardText1 {
+  padding: 20px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  position: relative;
+  left: 4px;
+  color: rgb(65, 65, 65);
+}
+
+.listContainer {
+  position: relative;
+  top: 28px;
+  left: 16px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  height: 70px;
+  color: rgb(105, 105, 105);
+
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.listContainer ul li {
+  list-style: none;
+  margin: 7px 0;
+  font-weight: 100;
+
+}
+
+.listContainer,
+FaCircle {
+  color: black;
+
+}
+
+.BlueBtn {
+  background-color: #2069f5;
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 9px;
+  position: relative;
+  top: 120px;
+  left: 20px;
+  gap: 4px;
+
+}
+
+.WhiteBtn {
+  background-color: #fff;
+  border: 1px solid rgb(159, 159, 159);
+  color: rgb(67, 67, 67);
+  padding: 12px;
+  border-radius: 9px;
+  font-weight: bold;
+  position: relative;
+  left: 20px;
+  position: relative;
+  top: 57px;
+
+}

@@ -1,0 +1,140 @@
+/* ProfessionalDevelopment.module.css */
+
+.ProfessionalDevelopmentMainContainer {
+  width: 1520px;
+  position: relative;
+  right: 170px;
+  background: #fafafa;
+
+}
+
+.ProfessionalDevelopmentContainer {
+  padding: 90px;
+  width: 1200px;
+  position: relative;
+  left: 10.5rem;
+
+}
+
+
+
+.heading {
+  color: rgb(29, 27, 27);
+  letter-spacing: 1px;
+  font-size: 38px;
+  font-weight: 500;
+  position: relative;
+  right: 70px;
+}
+
+.mainText {
+  color: rgb(56, 55, 55);
+  margin-top: 10px;
+  font-size: 16px;
+  position: relative;
+  right: 70px;
+}
+
+.programSection {
+  display: flex;
+  justify-content: space-between;
+  width: 70rem;
+  position: relative;
+  right: 68px;
+  height: 570px;
+
+}
+
+.leftSection {
+  margin-top: 18px;
+  position: relative;
+  height: 380px;
+  align-items: center;
+  padding: 20px;
+  font-size: 17px;
+  color: rgb(29, 27, 27);
+  width: 550px;
+
+}
+
+.leftSectionFirstElement {
+  border: 1px solid grey;
+  padding: 17px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 500px;
+
+}
+
+.leftSectionCardList {
+  border: 1px solid rgb(202, 202, 202);
+  padding: 17px;
+  position: relative;
+  margin-top: 19px;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.leftSectionCardList,
+.leftSectionFirstElement {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.CardSection {
+  justify-content: space-around;
+  display: flex;
+  width: 470px;
+  height: 480px;
+  border-radius: 20px;
+  position: relative;
+  top: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.CardHeading {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  color: rgb(50, 47, 47);
+  letter-spacing: 1px;
+  font-size: 36px;
+  font-weight: 100;
+
+}
+
+.CardSectionText {
+  position: relative;
+  left: 10px;
+  top: 24px;
+  position: relative;
+  width: 425px;
+  color: rgb(86, 86, 86);
+  font-size: 15px;
+
+
+}
+
+.rightCard img {
+  width: 450px;
+  height: 170px;
+  padding: 9px;
+  border-radius: 20px;
+  position: relative;
+  top: 9px;
+
+}
+
+
+.learnMoreBtn {
+  margin-top: 40px;
+  position: relative;
+  left: 9px;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 8px;
+  font-weight: bold;
+}

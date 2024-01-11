@@ -1,0 +1,52 @@
+{
+    "testimonials": [
+        {
+            "testimonialImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy_JmafxKbli9Es5QUvL6d-qIdOd5RmExsvA&usqp=CAU",
+            "testimonyName": "Ralph Edwards",
+            "testimonyEmail": "Olivia@rekreative.id",
+            "testimonialDescription": "We saw a significant increase in business after working with Envisiona. Their approach has been very effective."
+        },
+        {
+            "testimonialImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy_JmafxKbli9Es5QUvL6d-qIdOd5RmExsvA&usqp=CAU",
+            "testimonyName": "Ralph Edwards",
+            "testimonyEmail": "Olivia@rekreative.id",
+            "testimonialDescription": "We saw a significant increase in business after working with Envisiona. Their approach has been very effective."
+        },
+        {
+            "testimonialImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy_JmafxKbli9Es5QUvL6d-qIdOd5RmExsvA&usqp=CAU",
+            "testimonyName": "Ralph Edwards",
+            "testimonyEmail": "Olivia@rekreative.id",
+            "testimonialDescription": "We saw a significant increase in business after working with Envisiona. Their approach has been very effective."
+        },
+        {
+            "testimonialImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1dXcbGQTvqLXLBEQnr3S2ta1flJNUUc6kw&usqp=CAU",
+            "testimonyName": "Kristin Watson",
+            "testimonyEmail": "Olivia@rekreative.id",
+            "testimonialDescription": "Envisiona's Change management workshop really helped us navigate a smooth transaction during our organizational change. They are experts at this."
+        },
+        {
+            "testimonialImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAZG_0rGJMF1qhTWcB8ehekBnP9brf_ZqiUg&usqp=CAU",
+            "testimonyName": "Ralph Edwards",
+            "testimonyEmail": "Olivia@rekreative.id",
+            "testimonialDescription": "We saw a significant increase in business after working with Envisiona. Their approach has been very effective."
+        },
+        {
+            "testimonialImg": "https://img.freepik.com/premium-vector/avatar-icon002_750950-52.jpg?size=338&ext=jpg&ga=GA1.1.1412446893.1704499200&semt=ais",
+            "testimonyName": "Kristin Watson",
+            "testimonyEmail": "Olivia@rekreative.id",
+            "testimonialDescription": "Envisiona's Change management workshop really helped us navigate a smooth transaction during our organizational change. They are experts at this."
+        },
+        {
+            "testimonialImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMGfeGSG6GubKzfbHOv0-2IO3xYPL085G9M-6rwrCTlIH8tFqlFpee5bCpHMttWIER1EE&usqp=CAU",
+            "testimonyName": "Ralph Edwards",
+            "testimonyEmail": "Olivia@rekreative.id",
+            "testimonialDescription": "We saw a significant increase in business after working with Envisiona. Their approach has been very effective."
+        },
+        {
+            "testimonialImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjHw8C0RLzxdqpgvE14gd0I4GdIROedBfa5_H5JEdVjyr1JDqny4Zs3CnR8C-cScn4sIw&usqp=CAU",
+            "testimonyName": "Kristin Watson",
+            "testimonyEmail": "Olivia@rekreative.id",
+            "testimonialDescription": "Envisiona's Change management workshop really helped us navigate a smooth transaction during our organizational change. They are experts at this."
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 18px;
+
+}
+
+.leftSection {
+  position: relative;
+  top: 70px;
+  width: 590px;
+  height: 470px;
+  padding-left: 10px;
+}
+
+.leftSection p {
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 13.7px;
+  font-family: sans-serif;
+
+}
+
+.leftSection h2 {
+  margin-top: 8px;
+  letter-spacing: 1.9px;
+  font-size: 42px;
+  font-weight: 500;
+  width: 500px;
+
+}
+
+.btn {
+  margin-bottom: 12px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 17px;
+
+}
+
+
+.leftSectionButton {
+  display: flex;
+  padding: 35px;
+}
+
+.blueBtn {
+  background-color: #2069f5;
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 9px;
+  position: relative;
+
+  right: 36px;
+  gap: 6px;
+
+}
+
+.Contactbtn {
+  background-color: #fff;
+  border: 1px solid rgb(200, 200, 200);
+
+  color: rgb(67, 67, 67);
+  padding: 10px;
+  border-radius: 9px;
+  font-weight: bold;
+  position: relative;
+  right: 8px;
+
+}
+
+.userBtn {
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.bigButton {
+  display: flex;
+  background: #fff;
+  padding: 7px;
+  color: rgb(76, 73, 73);
+  position: relative;
+  top: 30px;
+  justify-content: space-around;
+  border-radius: 7px;
+  border: 1px solid rgb(200, 200, 200);
+  font-size: 13px;
+  width: 500px;
+  font-weight: 600;
+}
+
+.userBtn {
+  gap: 6px;
+}
+
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  width: 530px;
+  height: 570px;
+  padding-top: 25px;
+}
+
+.image {
+  width: 530px;
+  height: 330px;
+  border-radius: 15px;
+}
+
+.image1 {
+  width: 530px;
+  height: 200px;
+  border-radius: 15px;
+}

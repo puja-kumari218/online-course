@@ -1,0 +1,85 @@
+.carouselContainer {
+  width: 1528px;
+  overflow: hidden;
+  background: #f5f8ff;
+  padding: 40px 0;
+  position: relative;
+  right: 170px;
+
+}
+
+
+.TestimonialsHeaderContainer {
+  text-align: center;
+  padding: 40px 0;
+
+}
+
+.TestimonialsHeaderContainer>h1 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  font-weight: 500;
+
+}
+
+.TestimonialsHeaderContainer>p {
+  margin-bottom: 10px;
+  color: rgb(86, 86, 86);
+
+  font-size: 17px;
+  letter-spacing: 1px;
+
+}
+
+.carouselWrapper {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 430px;
+  height: 200px;
+  margin: 0 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+
+}
+
+.cardLeftSection {
+  display: flex;
+  position: relative;
+  right: 40px;
+  color: rgb(36, 35, 35);
+  font-size: 15px;
+  width: 300px;
+
+
+}
+
+.cardRightSetion {
+  padding: 20px 14px;
+}
+
+.TestimonialsText {
+  font-size: 15px;
+  color: rgb(86, 86, 86);
+
+}
+
+.testimonyCardImg {
+  width: 40px;
+  border-radius: 20px;
+  margin-right: 15px;
+}
