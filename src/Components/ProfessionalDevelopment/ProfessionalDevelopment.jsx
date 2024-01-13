@@ -1,61 +1,40 @@
-// ProfessionalDevelopment.jsx
 import React from 'react';
 import { IoArrowForwardCircleOutline } from "react-icons/io5";
 import { IoArrowDownCircleOutline } from "react-icons/io5";
-
 import { Card, Button } from 'react-bootstrap';
-import styles from './ProfessionalDevelopment.module.css'; // Import your CSS module
+import styles from './ProfessionalDevelopment.module.css';
 
 function ProfessionalDevelopment() {
   return (
     <div className={styles.ProfessionalDevelopmentMainContainer}>
       <div className={styles.ProfessionalDevelopmentContainer}>
-
         <div className={styles.ProfessionalDevHeaderContainer}>
-          <h1 className={styles.heading}>Professional Development<br /> Programs</h1>
+          <h2 className={styles.heading}>Professional Development<br /> Programs</h2>
           <p className={styles.mainText}>Some introductory text about professional development programs.</p>
         </div>
-
         <div className={styles.programSection}>
-          {/* Left Section */}
-
           <div className={styles.leftSection}>
-
             <div className={styles.leftSectionFirstElement}>
-              <p>Sales Training
-              </p>
+              <p>Sales Training</p>
               <IoArrowForwardCircleOutline />
-
             </div>
-
             <div className={styles.leftSectionCardList}>
-              <p>Private Training on-site
-              </p>
+              <p>Private Training on-site </p>
               <IoArrowDownCircleOutline />
             </div>
             <div className={styles.leftSectionCardList}>
-              <p>Leadership Training
-
-              </p>
+              <p>Leadership Training </p>
               <IoArrowDownCircleOutline />
-
             </div>
             <div className={styles.leftSectionCardList}>
-              <p>Customer Service Training
-
-              </p>
+              <p>Customer Service Training </p>
               <IoArrowDownCircleOutline />
-
             </div>
             <div className={styles.leftSectionCardList}>
-              <p>Coprate Training
-
-              </p>
+              <p>Coprate Training </p>
               <IoArrowDownCircleOutline />
             </div>
           </div>
-
-          {/* Right Card */}
           <div className={styles.CardSection}>
             <Card className={styles.rightCard}>
               <Card.Img variant="top" src="https://img.freepik.com/free-photo/collaborative-process-multicultural-businesspeople-using-laptop-presentation-communication-meeting-brainstorming-ideas-about-new-project-colleagues-working-plan-success-strategy-home-office_7861-2588.jpg?w=1060&t=st=1704378260~exp=1704378860~hmac=a10c2e595239a1cb4695ee1cbf839800fca9d5e9a63a6b19697a1ecd1297e799" />
@@ -75,7 +54,6 @@ function ProfessionalDevelopment() {
                     FranklinCovey is the world's most trusted provider of leadership development
                     solutions that unleash the full potential of leaders and their teams.
                   </Card.Text>
-
                 </div>
                 <Button variant="primary" className={styles.learnMoreBtn}>
                   Learn More
@@ -83,11 +61,9 @@ function ProfessionalDevelopment() {
               </Card.Body>
             </Card>
           </div>
-
         </div>
       </div>
     </div>
   );
 }
-
 export default ProfessionalDevelopment;

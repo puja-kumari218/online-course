@@ -1,13 +1,12 @@
 .carouselContainer {
   width: 1528px;
+  height: 850px;
   overflow: hidden;
-  background: #f5f8ff;
   padding: 40px 0;
   position: relative;
   right: 170px;
-
+  background: #f5f8ff;
 }
-
 
 .TestimonialsHeaderContainer {
   text-align: center;
@@ -17,33 +16,30 @@
 
 .TestimonialsHeaderContainer>h1 {
   margin-bottom: 10px;
-  font-size: 36px;
+  font-size: 45px;
   font-weight: 500;
-
 }
 
 .TestimonialsHeaderContainer>p {
   margin-bottom: 10px;
-  color: rgb(86, 86, 86);
-
+  color: #000000;
   font-size: 17px;
-  letter-spacing: 1px;
-
+  letter-spacing: 1.7px;
 }
 
-.carouselWrapper {
+.slider {
   display: flex;
-  transition: transform 0.5s ease;
+  width: 1528px !important;
+  height: 240px !important;
 }
 
-.row {
+.slideTrack {
   display: flex;
-  margin-bottom: 20px;
 }
 
-.card {
-  width: 430px;
-  height: 200px;
+.slide {
+  width: 430px !important;
+  height: 220px !important;
   margin: 0 10px;
   background-color: #ffffff;
   display: flex;
@@ -53,19 +49,17 @@
   border-radius: 10px;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
   padding: 10px;
-
-
 }
 
 .cardLeftSection {
   display: flex;
   position: relative;
-  right: 40px;
-  color: rgb(36, 35, 35);
-  font-size: 15px;
+  right: 30px;
+  color: #000000;
+  font-size: 14px;
   width: 300px;
-
-
+  position: relative;
+  bottom: 22px;
 }
 
 .cardRightSetion {
@@ -74,12 +68,79 @@
 
 .TestimonialsText {
   font-size: 15px;
-  color: rgb(86, 86, 86);
-
+  color: #3d3d4e;
+  font-weight: 400;
 }
 
 .testimonyCardImg {
   width: 40px;
   border-radius: 20px;
   margin-right: 15px;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+.slider {
+  background: pr;
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+
+}
+
+.slider::before,
+.slider::after {
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  -webkit-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slider .slideTrack {
+  -webkit-animation: scroll 40s linear infinite;
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+
+.slider .slide {
+  height: 100px;
+  width: 250px;
 }

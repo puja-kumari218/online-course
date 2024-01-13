@@ -33,22 +33,22 @@ const MainContainer = () => {
           </div>
 
           <div className={styles.bigButton}>
-            <div className={styles.userBtn}>
+            <div className={styles.userBtnIcon}>
               <LuUser2 /> Individuals
             </div>
-            <div className={styles.userBtn}>
+            <div className={styles.userBtnIcon}>
               <LuUsers />
               Scaling Companies
             </div>
-            <div className={styles.userBtn}>
+            <div className={styles.userBtnIcon}>
               <TbUsersGroup />
               Enterprise
             </div>
           </div>
         </div>
-        <div className={styles.rightSection}>
-          <img className={styles.image} src="./image.png" alt="Image 1" />
-          <img className={styles.image1} src="https://img.freepik.com/free-photo/side-view-three-people-business-meeting_1098-19141.jpg?size=626&ext=jpg&ga=GA1.1.1247558506.1703918531&semt=ais" alt="Image 2" />
+        <div className={styles.rightSectionContainer}>
+          <img className={styles.rightSectionContainerImage} src="./image.png" alt="Image 1" />
+          <img className={styles.rightSectionContainerImage1} src="https://img.freepik.com/free-photo/side-view-three-people-business-meeting_1098-19141.jpg?size=626&ext=jpg&ga=GA1.1.1247558506.1703918531&semt=ais" alt="Image 2" />
         </div>
       </div>
       <ClientSection />

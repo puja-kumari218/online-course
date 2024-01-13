@@ -18,22 +18,18 @@
 .programHeaderContainer>h1 {
     margin-bottom: 10px;
     letter-spacing: 2px;
-    font-size: 40px;
-    font-weight: 100;
-    color: rgb(50, 47, 47);
-
-
+    font-size: 46px;
+    font-weight: 400;
+    color: #000000;
 }
 
 .programHeaderContainer>p {
     margin-bottom: 10px;
-    color: rgb(86, 86, 86);
-    font-size: 14px;
-    letter-spacing: 1.5px;
+    color: rgb(0, 0, 0);
+    font-size: 14.5px;
+    letter-spacing: 1px;  
 
 }
-
-
 .programDetailsContainer {
     display: flex;
     width: 1200px;
@@ -49,35 +45,32 @@
 
 .programCardContainer {
     padding: 20px;
-    width: 540px;
+    width: 520px;
     height: 245px;
-
     display: flex;
     flex-direction: column;
     gap: 10px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
 }
 
 .programCardType {
-    font-size: 15px;
+    font-size: 14px;
     color: blue;
+    font-weight: 400;
 }
 
 .programCardTitie {
     margin-bottom: 10px;
     font-size: 20px;
-    font-weight: 100;
-    color: rgb(50, 47, 47);
-
+    font-weight: 400;
+    color: #000000;
 }
 
 .programCardDescription {
-    color: rgb(86, 86, 86);
+    color: #3d3d4e;
     font-size: 14px;
-
 }
 
 .programCardFooter button {
@@ -88,12 +81,11 @@
     border-radius: 9px;
     background-color: #fff;
     border: 1px solid rgb(159, 159, 159);
-    color: rgb(67, 67, 67);
+    color: #3d3d4e;
 }
-
 
 .greenText {
     color: green;
-    font-size: 15px;
-
+    font-size: 14px;
+    font-weight: 400;
 }

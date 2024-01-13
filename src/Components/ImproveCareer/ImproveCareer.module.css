@@ -1,10 +1,8 @@
-/* ImproveCareer.module.css */
 .ImproveCareerMainContainer {
   width: 1515px;
   background: #fafafa;
   position: relative;
   right: 170px;
-
 }
 
 .improveCareerContainer {
@@ -19,7 +17,6 @@
   position: relative;
   right: 200px;
   top: 28px;
-
 }
 
 .improveCareerContainerHeading h2 {
@@ -39,7 +36,6 @@
   gap: 30px;
   padding: 20px 0;
   position: relative;
-
 }
 
 .card {
@@ -51,15 +47,12 @@
   border-radius: 8px;
   margin-bottom: 20px;
   justify-content: space-around;
-
 }
 
 .card h2 {
   font-size: 27px;
   font-weight: 500;
   margin-top: 6px;
-
-
 }
 
 .card p {
@@ -68,7 +61,6 @@
   letter-spacing: 0.6px;
   color: rgb(86, 86, 86);
   letter-spacing: 1px;
-
 }
 
 .blueBtn {

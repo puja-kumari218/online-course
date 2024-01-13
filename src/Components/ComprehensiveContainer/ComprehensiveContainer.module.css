@@ -4,7 +4,6 @@
   width: 1515px;
   position: relative;
   right: 170px;
-
 }
 
 .comprehensiveContainer {
@@ -15,22 +14,22 @@
 
 .centerHeading {
   text-align: center;
-  position: relative;
 }
 
-.centerHeading h1 {
-  color: rgb(50, 47, 47);
-  font-size: 40px;
+.centerHeading h2 {
+  font-size: 46px;
   font-weight: 500;
+  color: #000000;
 }
 
 .centerHeading p {
   letter-spacing: 1px;
   position: relative;
   top: 13px;
-  color: rgb(116, 113, 113);
-  font-size: 20px;
-  font-family: sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+
 }
 
 .cardSection {
@@ -43,13 +42,13 @@
 
 .leftCard {
   width: 540px;
-  border-radius: 25px;
+  height: 450px;
+  border-radius: 22px;
   outline: none;
   border: none;
   padding: 12px;
   position: relative;
   left: 80px;
-  height: 500px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background: #ffffff;
 }
@@ -57,85 +56,73 @@
 .rightCard {
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  height: 500px;
+  height: 450px;
   width: 540px;
-
-  border-radius: 25px;
+  border-radius: 22px;
   outline: none;
   border: none;
   position: relative;
   right: 60px;
   background: #ffffff;
-
 }
-
-
 
 .CardTitle {
   padding: 20px;
-  color: rgb(50, 47, 47);
-  font-size: 28px;
-  font-weight: 500;
+  color:#000000;
+  font-size: 26px;
+  font-weight: 400;
 }
 
 .CardText {
   padding: 15px;
-  color: rgb(65, 65, 65);
-  font-size: 17px;
+  color:#000000;
+  font-size: 15px;
+  font-family:"Satoshi Regular", sans-serif;
+  font-weight: 400;
 }
-
 
 .CardTitle1 {
   padding: 20px;
-  color: rgb(50, 47, 47);
-  font-size: 28px;
-  font-weight: 500;
+  color:#000000;
+  font-size: 26px;
+  font-weight: 400;
 }
 
 .CardText1 {
-  padding: 20px;
-  font-size: 17px;
+  padding: 15px;
   letter-spacing: 1px;
   position: relative;
   left: 4px;
-  color: rgb(65, 65, 65);
+  color:#000000;
+  font-size: 15px;
+  font-family:"Satoshi Regular", sans-serif;
+  font-weight: 500;
 }
 
 .listContainer {
   position: relative;
   top: 28px;
   left: 16px;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
-  font-weight: bold;
-  height: 70px;
-  color: rgb(105, 105, 105);
-
+  font-weight: 500;
+  height: 80px;
+  color:#000000;
 }
-
-.listContainer {
-  display: flex;
-  flex-direction: column;
-
-}
-
 
 .listContainer ul li {
   list-style: none;
-  margin: 7px 0;
-  font-weight: 100;
-
+  margin: 9px 0;
 }
 
-.listContainer,
-FaCircle {
-  color: black;
-
+.listContainer ul li svg {
+  font-size: 9px;
+  margin-right: 4px; 
 }
 
 .BlueBtn {
   background-color: #2069f5;
-  color: white;
+  color: #ffffff;
   padding: 15px;
   display: flex;
   align-items: center;
@@ -145,19 +132,18 @@ FaCircle {
   top: 120px;
   left: 20px;
   gap: 4px;
-
+  font-weight: 400;
 }
 
 .WhiteBtn {
   background-color: #fff;
   border: 1px solid rgb(159, 159, 159);
-  color: rgb(67, 67, 67);
+  color:#000000;
   padding: 12px;
   border-radius: 9px;
-  font-weight: bold;
+  font-weight: 400;
   position: relative;
   left: 20px;
-  position: relative;
-  top: 57px;
+  top: 100px;
 
 }

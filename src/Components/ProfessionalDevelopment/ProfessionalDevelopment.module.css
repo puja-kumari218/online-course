@@ -1,11 +1,8 @@
-/* ProfessionalDevelopment.module.css */
-
 .ProfessionalDevelopmentMainContainer {
   width: 1520px;
   position: relative;
   right: 170px;
   background: #fafafa;
-
 }
 
 .ProfessionalDevelopmentContainer {
@@ -13,15 +10,11 @@
   width: 1200px;
   position: relative;
   left: 10.5rem;
-
 }
 
-
-
 .heading {
-  color: rgb(29, 27, 27);
-  letter-spacing: 1px;
-  font-size: 38px;
+  color: #000000;
+  font-size: 45px;
   font-weight: 500;
   position: relative;
   right: 70px;
@@ -31,6 +24,7 @@
   color: rgb(56, 55, 55);
   margin-top: 10px;
   font-size: 16px;
+  font-weight: 400;
   position: relative;
   right: 70px;
 }
@@ -42,7 +36,6 @@
   position: relative;
   right: 68px;
   height: 570px;
-
 }
 
 .leftSection {
@@ -51,10 +44,10 @@
   height: 380px;
   align-items: center;
   padding: 20px;
-  font-size: 17px;
-  color: rgb(29, 27, 27);
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
   width: 550px;
-
 }
 
 .leftSectionFirstElement {
@@ -64,7 +57,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   width: 500px;
-
 }
 
 .leftSectionCardList {
@@ -80,7 +72,6 @@
 .leftSectionFirstElement {
   display: flex;
   justify-content: space-between;
-
 }
 
 .CardSection {
@@ -98,11 +89,9 @@
   position: relative;
   left: 10px;
   top: 10px;
-  color: rgb(50, 47, 47);
-  letter-spacing: 1px;
+  color: #000000;
   font-size: 36px;
-  font-weight: 100;
-
+  font-weight: 400;
 }
 
 .CardSectionText {
@@ -110,11 +99,9 @@
   left: 10px;
   top: 24px;
   position: relative;
-  width: 425px;
-  color: rgb(86, 86, 86);
-  font-size: 15px;
-
-
+  width: 420px;
+  color: #3d3d4e;
+  font-size: 14px;
 }
 
 .rightCard img {
@@ -124,9 +111,7 @@
   border-radius: 20px;
   position: relative;
   top: 9px;
-
 }
-
 
 .learnMoreBtn {
   margin-top: 40px;
@@ -136,5 +121,6 @@
   background: #fff;
   border: 1px solid rgb(200, 200, 200);
   border-radius: 8px;
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: 400;
 }
