@@ -5,6 +5,7 @@ import styles from './Testimonials.module.css';
 
 const Testimonials = () => {
     const [translateX, setTranslateX] = useState(0);
+    const [translateX1, setTranslateX1] = useState(-140);
     const [testimonialCard, setTestimonialCard] = useState([]);
 
     const carouselRef = useRef(null);
@@ -27,7 +28,7 @@ const Testimonials = () => {
             >
                 <div className={styles.slideTrack}>
                     {testimonialCard.map((card, index) => (
-                        <Card border="secondary" key={index} className={styles.slide}>
+                        <Card border="secondary" key={index} className={styles.slide}dd>
                             <div className={styles.cardLeftSection}>
                                 <Card.Img className={styles.testimonyCardImg} src={card.testimonialImg} />
                                 <div>
@@ -44,11 +45,11 @@ const Testimonials = () => {
             </div>
             <div
                 className={styles.slider}
-                style={{ transform: `translateX(${translateX}px)` }}
+               
             >
                 <div className={styles.slideTrack}>
                     {testimonialCard.map((card, index) => (
-                        <Card border="secondary" key={index} className={styles.slide}>
+                        <Card border="secondary" key={index} className={styles.slide1}  style={{ transform: `translateX(${translateX1}px)` }}>
                             <div className={styles.cardLeftSection}>
                                 <Card.Img className={styles.testimonyCardImg} src={card.testimonialImg} />
                                 <div>

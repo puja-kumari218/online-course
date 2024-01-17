@@ -1,21 +1,48 @@
+.carouselContainer {
+  width: 1200px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(calc(-150px * 60));
+    transform: translateX(calc(-150px * 60));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(calc(-150px * 60));
+    transform: translateX(calc(-150px * 60));
+  }
+}
+
 .clientSection {
   display: flex;
-  justify-content: space-between;
-  margin: 5rem 0;
+  margin: 4rem 0;
+  animation: scroll 70s linear infinite;
 }
 
 .clientItem {
-  display: flex;
+  flex: 0 0 auto;
   width: 150px;
   padding: 20px 0;
+  margin-right: 20px; 
 }
 
 .clientItem img {
-  margin-bottom: 10px;
-  width: 125px;
-  height: 80px;
-  position: relative;
-  left: 12px;
-  justify-content: center;
-  align-items: center;
+  width: 130px;
+  height: 90px;
 }

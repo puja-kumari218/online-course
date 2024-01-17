@@ -17,7 +17,8 @@
 
 .leftSectionHeading h2 {
   font-size: 26px;
-  font-weight: 500;
+  font-weight: 400;
+  line-height: 36px;
 }
 
 .socialIcons {
@@ -64,7 +65,8 @@
   width: 1100px;
   position: relative;
   left: 220px;
-  margin: 20px 0;
+  align-items: center;
+  margin: 15px 0;
 }
 
 hr {
@@ -74,24 +76,12 @@ hr {
   left: 210px;
 }
 
-.EnvisionleftLineIcon {
-  font-size: 27px;
-}
-
 .verticalLine {
   border-left: 1.5px solid rgb(101, 101, 101);
   margin: 0 10px;
 
 }
-
-.footerBottom {
-  width: 1100px;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  left: 200px;
-  padding: 20px;
-  color: rgb(101, 101, 101);
-  font-size: 17px;
-
+.headerlogo img {
+  width: 90px;
+  height: 35px;
 }

@@ -5,7 +5,7 @@
 }
 
 .body-container {
-  font-family: "Mona Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;  ;
   display: flex;
   justify-content: center;
   align-items:center ;

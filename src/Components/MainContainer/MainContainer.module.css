@@ -2,6 +2,10 @@
   display: flex;
   justify-content: space-between;
   padding-top: 18px;
+  background: #ffffff;
+  width: 1500px;
+  position: relative;
+  right: 155px;
 }
 
 .leftSection {
@@ -9,21 +13,26 @@
   top: 70px;
   width: 590px;
   height: 470px;
-  padding-left: 10px;
+  position: relative;
+  left: 158px;
 }
 
 .leftSection p {
   margin-top: 10px;
-  color: rgb(0, 0, 0);
-  font-size: 14.5px;
+  color: #161819;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
   font-family: Helvetica, sans-serif;
 }
 
 .leftSection h2 {
-  margin-top: 8px;
-  font-size: 43.6px;
+  margin-top: 9px;
+  font-size: 45px;
+  font-weight: 200;
   width: 500px;
-  color: #1f2123;
+  color: #0d0d0d;
+  line-height: 46px;
 }
 
 .btn {
@@ -33,7 +42,7 @@
   border: 1px solid rgb(200, 200, 200);
   border-radius: 17px;
   color: #161819;
-  font-weight: 500;
+  font-size: 13px;
 }
 
 .leftSectionButton {
@@ -41,8 +50,8 @@
   padding: 35px;
 }
 
-.blueBtn {
-  background-color: #2069f5;
+.StartBtn {
+  background-color: #ed2025;
   padding: 15px;
   display: flex;
   align-items: center;
@@ -53,7 +62,7 @@
   gap: 6px;
   color: #ffffff;
   font-weight: 400;
-  font-weight: 26px;
+  font-size: 14px;
 }
 
 .Contactbtn {
@@ -65,7 +74,7 @@
   position: relative;
   right: 8px;
   font-weight: 400;
-  font-weight: 26px;
+  font-size: 14px;
 }
 
 .userBtnIcon {
@@ -100,18 +109,20 @@
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  width: 530px;
+  right: 190px;
+  width: 500px;
   height: 570px;
   padding-top: 25px;
 }
+
 .rightSectionContainerImage{
-  width: 530px;
+  width: 500px;
   height: 340px;
   border-radius: 15px;
 }
 
 .rightSectionContainerImage1 {
-  width: 530px;
+  width: 500px;
   height: 190px;
   border-radius: 15px;
 }

@@ -23,7 +23,7 @@ const MainContainer = () => {
             by driving continuous improvement, innovation and exceptional performance</p>
 
           <div className={styles.leftSectionButton}>
-            <button className={styles.blueBtn}>
+            <button className={styles.StartBtn}>
               Start The Transformation <IoArrowForwardCircleOutline />
 
             </button>

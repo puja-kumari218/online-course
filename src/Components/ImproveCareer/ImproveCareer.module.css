@@ -20,10 +20,12 @@
 }
 
 .improveCareerContainerHeading h2 {
-  font-size: 36px;
-  font-weight: 500;
   position: relative;
-  right: 50px;
+  right: 30px;
+  font-size: 35px;
+  font-weight: 400;
+  color: #0d0d0d;
+  line-height: 46px;
 }
 
 .cardContainer {
@@ -50,21 +52,25 @@
 }
 
 .card h2 {
-  font-size: 27px;
-  font-weight: 500;
   margin-top: 6px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #0d0d0d;
+  line-height: 40px;
 }
 
 .card p {
   font-size: 17px;
   margin-top: 14px;
-  letter-spacing: 0.6px;
-  color: rgb(86, 86, 86);
-  letter-spacing: 1px;
+  color: #161819;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+
 }
 
-.blueBtn {
-  background-color: #007bff;
+.RedBtn {
+  background-color: #ed2025;
   color: #fff;
   padding: 12px;
   margin-top: 12px;

@@ -1,0 +1,58 @@
+{
+    "professionalProgramsList": [
+        {
+            "title": "Sales Training",
+            "details": [
+                {
+                    "name": "Sales Training",
+                    "description": "Our comprehensive Sales Training programs are meticulously crafted to equip your sales team with the essential skills and knowledge they need to excel in a competitive market. Through dynamic workshops, interactive simulations, and expert guidance, we empower your sales force to build stronger client relationships, close deals more effectively, and exceed revenue targets.",
+                    "Text": "Our proven training methodology fosters confidence, strategic thinking and a customer-centric approach, ensuring that your team can drive results and increase your organization's profits."
+                }
+            ]
+        },
+        {
+            "title": "Private Training on-site",
+            "details": [
+                {
+                    "name": "Private Training on-site",
+                    "description": "Our comprehensive Sales Training programs are meticulously crafted to equip your sales team with the essential skills and knowledge they need to excel in a competitive market. Through dynamic workshops, interactive simulations, and expert guidance, we empower your sales force to build stronger client relationships, close deals more effectively, and exceed revenue targets.",
+                    "Text": "Our proven training methodology fosters confidence, strategic thinking and a customer-centric approach, ensuring that your team can drive results and increase your organization's profits."
+
+                }
+            ]
+        },
+        {
+            "title": "Leadership Training",
+            "details": [
+                {
+                    "name": "Leadership Training",
+                    "description": "Our comprehensive Sales Training programs are meticulously crafted to equip your sales team with the essential skills and knowledge they need to excel in a competitive market. Through dynamic workshops, interactive simulations, and expert guidance, we empower your sales force to build stronger client relationships, close deals more effectively, and exceed revenue targets.",
+                    "Text": "Our proven training methodology fosters confidence, strategic thinking and a customer-centric approach, ensuring that your team can drive results and increase your organization's profits."
+
+                }
+            ]
+        },
+        {
+            "title": "Customer Service Training",
+            "details": [
+                {
+                    "name": "Customer Service Training",
+                    "description": "Our comprehensive Sales Training programs are meticulously crafted to equip your sales team with the essential skills and knowledge they need to excel in a competitive market. Through dynamic workshops, interactive simulations, and expert guidance, we empower your sales force to build stronger client relationships, close deals more effectively, and exceed revenue targets.",
+                    "Text": "Our proven training methodology fosters confidence, strategic thinking and a customer-centric approach, ensuring that your team can drive results and increase your organization's profits."
+
+                }
+            ]
+        },
+        {
+            "title": "Coprate Training",
+            "details": [
+                {
+                    "name": "Coprate Training",
+                    "description": "Our comprehensive Sales Training programs are meticulously crafted to equip your sales team with the essential skills and knowledge they need to excel in a competitive market. Through dynamic workshops, interactive simulations, and expert guidance, we empower your sales force to build stronger client relationships, close deals more effectively, and exceed revenue targets.",
+                    "Text": "Our proven training methodology fosters confidence, strategic thinking and a customer-centric approach, ensuring that your team can drive results and increase your organization's profits."
+
+                }
+            ]
+        }
+    ]
+}

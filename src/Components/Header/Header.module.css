@@ -1,11 +1,8 @@
-/* Header.module.css */
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  color: #161819;
   font-family: "Satoshi Medium", sans-serif;
 }
 
@@ -36,40 +33,19 @@
   justify-content: space-between;
   width: 520px;
   position: relative;
-  left: 200px;
+  left: 28rem;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 400;
+  color: #161819;
+}
+
+.navItems a{
+  text-decoration: none;
+  color: #161819;
 }
 
 .navItems span {
   margin-right: 15px;
   cursor: pointer;
 
-}
-
-.rightSection {
-  display: flex;
-}
-
-.loginBtn,
-.registerBtn {
-  margin-left: 15px;
-  padding: 8px 15px;
-  border: none;
-  cursor: pointer;
-  border-radius: 9px;
-}
-
-.loginBtn {
-  background-color: #2069f5;
-  color: white;
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.registerBtn {
-  background-color: #ffff;
-  border: 1px solid rgb(180, 180, 180);
-  font-size: 14px;
-  font-weight: 500;
 }

@@ -7,13 +7,10 @@ const Footer = () => {
 
     <div className={styles.FooterMainContainer} >
       <div className={styles.footerContainer}>
-        {/* Left Section */}
         <div className={styles.leftSectionHeading}>
           <h2>Empowering Excellence in Workforce <br />
             Development and Strategic Consulting,<br />
             Your Partner for Siccess</h2>
-
-          {/* Social Media Icons */}
           <div className={styles.socialIcons}>
             <FaFacebook />
             <FaTwitter />
@@ -21,10 +18,7 @@ const Footer = () => {
             <FaYoutube />
           </div>
         </div>
-
-        {/* Right Section */}
         <div className={styles.rightSection}>
-          {/* Company Info */}
           <div className={styles.companyInfoHeading}>
             <h2>Company Info</h2>
             <p>Login</p>
@@ -34,8 +28,6 @@ const Footer = () => {
             <p>Privacy</p>
             <p>Partner</p>
           </div>
-
-          {/* Learn More */}
           <div className={styles.companyInfoHeading}>
             <h2>Learn More</h2>
             <p>Instructor Relations</p>
@@ -48,23 +40,16 @@ const Footer = () => {
         </div>
         <hr />
         <div className={styles.BottomContainer}>
-          <div className={styles.EnvisionleftLineIcon}>
-            <FaEye /> Envision
-          </div>
+          <div className={styles.headerlogo}>
+          <img className={styles.image} src="./Headerlogo.png" alt="logo" />
+        </div>
+
           <div className={styles.TermsRightSideText}>
             Terms of Use <span className={styles.verticalLine}></span> Privacy Policy{' '}
             <span className={styles.verticalLine}></span> Security
           </div>
         </div>
         <hr />
-
-        {/* Copyright and Design By */}
-        <div className={styles.footerBottom}>
-          <div className={styles.leftBottomText}>Copyright 2023</div>
-          <div className={styles.rightBottom}>Design by SomeSquare</div>
-        </div>
-
-
       </div>
 
     </div>

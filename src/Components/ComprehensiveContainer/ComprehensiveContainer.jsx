@@ -56,7 +56,7 @@ const ComprehensiveContainer = () => {
                 </ul>
               </div>
               <div className={styles.rightSectionButton}>
-                <button className={styles.BlueBtn}>
+                <button className={styles.SeeMoreRedBtn}>
                   See More Information
                 </button>
               </div>

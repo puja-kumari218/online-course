@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Header.module.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -9,15 +10,11 @@ const Header = () => {
           <img className={styles.image} src="./Headerlogo.png" alt="logo" />
         </div>
         <div className={styles.navItems}>
-          <span>HOME</span>
-          <span>SERVICES</span>
-          <span>CLIENTS</span>
-          <span>CASE STUDY</span>
+          <Link to="/"> <span>HOME</span></Link>
+          <Link to="#"> <span>SERVICES</span></Link>
+          <Link to="#"> <span>CLIENTS</span></Link>
+          <Link to="#"> <span>CASE STUDY</span></Link>
         </div>
-      </div>
-      <div className={styles.rightSection}>
-        <button className={styles.loginBtn}>Login</button>
-        <button className={styles.registerBtn}>Register</button>
       </div>
     </div>
   );

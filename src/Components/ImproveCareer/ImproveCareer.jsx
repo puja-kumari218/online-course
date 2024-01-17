@@ -13,12 +13,12 @@ const ImproveCareer = () => {
           <div className={styles.card}>
             <h2>Find the Appropriate Training</h2>
             <p>Find training that puts your needs and goals</p>
-            <button className={styles.blueBtn}>Finding Training</button>
+            <button className={styles.RedBtn}>Finding Training</button>
           </div>
           <div className={styles.card}>
             <h2>Arrange Your Job Consultation</h2>
             <p>Find training that puts your needs and goals</p>
-            <button className={styles.blueBtn}>Set a Schedule</button>
+            <button className={styles.RedBtn}>Set a Schedule</button>
           </div>
         </div>
       </div>

@@ -29,17 +29,18 @@
 
 .slider {
   display: flex;
-  width: 1528px !important;
-  height: 240px !important;
+  width: auto !important;
+  height: 260px !important;
 }
 
 .slideTrack {
   display: flex;
+  width: auto !important;
 }
 
-.slide {
-  width: 430px !important;
-  height: 220px !important;
+.slide, .slide1 {
+  width: 440px !important;
+  height: 250px !important;
   margin: 0 10px;
   background-color: #ffffff;
   display: flex;
@@ -60,6 +61,7 @@
   width: 300px;
   position: relative;
   bottom: 22px;
+  line-height: 20px;
 }
 
 .cardRightSetion {
@@ -78,15 +80,15 @@
   margin-right: 15px;
 }
 
-@-webkit-keyframes scroll {
+ @-webkit-keyframes scroll {
   0% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 
   100% {
-    -webkit-transform: translateX(calc(-250px * 7));
-    transform: translateX(calc(-250px * 7));
+    -webkit-transform: translateX(calc(-150px * 7));
+    transform: translateX(calc(-150px * 7));
   }
 }
 
@@ -100,7 +102,7 @@
     -webkit-transform: translateX(calc(-250px * 7));
     transform: translateX(calc(-250px * 7));
   }
-}
+} 
 
 .slider {
   background: pr;
@@ -119,6 +121,7 @@
   position: absolute;
   width: 200px;
   z-index: 2;
+
 }
 
 .slider::after {
@@ -140,7 +143,8 @@
   width: calc(250px * 14);
 }
 
-.slider .slide {
+.slider .slide,
+.slider .slide1 {
   height: 100px;
   width: 250px;
 }
