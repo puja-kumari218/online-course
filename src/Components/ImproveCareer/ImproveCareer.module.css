@@ -89,9 +89,9 @@
 
 
 @media only screen and (max-width: 768px) {
-  .ImproveCareerMainContainer {
+.ImproveCareerMainContainer {
 width: 316px;
-height: 950px;
+height: 850px;
 position: relative;
 left: 385px;
   }
