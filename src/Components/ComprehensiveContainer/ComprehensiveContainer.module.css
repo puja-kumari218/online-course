@@ -164,7 +164,7 @@
   }
 
   .centerHeading h2 {
-    font-size: 17px;
+    font-size: 12px;
     line-height: 22px;
   }
 
@@ -213,6 +213,6 @@
 
   .WhiteBtn {
     position: relative;
-    top: 30px;
+    top: 10px;
   }
 }
