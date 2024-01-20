@@ -115,14 +115,102 @@
   padding-top: 25px;
 }
 
-.rightSectionContainerImage{
-  width: 500px;
+.rightSectionContainerImage {
+  width: 490px;
   height: 340px;
   border-radius: 15px;
 }
 
 .rightSectionContainerImage1 {
-  width: 500px;
+  width: 490px;
   height: 190px;
   border-radius: 15px;
+}
+
+/* Media query for mobile view */
+@media only screen and (max-width: 768px) {
+  .container {
+    height: 1050px;
+    width: 315px;
+    position: relative;
+    left: 380px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .leftSection {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  .leftSection h2 {
+    margin-top: 9px;
+    font-size: 26px;
+    font-weight: 400;
+    width: 310px;
+    color: #0d0d0d;
+    line-height: 27px;
+  }
+
+  .leftSectionButton {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .StartBtn {
+    position: relative;
+    right: 5px;
+  }
+
+  .bigButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    width: 220px;
+    font-weight: 400;
+    position: relative;
+    left: 28px;
+    top: 0px;
+  }
+
+  .userBtnIcon {
+    display: flex;
+    width: 200px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .rightSectionContainer {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 9px;
+    top: 120px;
+    padding-left: 8px;
+  }
+
+  .rightSectionContainerImage {
+    width: 280px;
+    height: 200px;
+    border-radius: 15px;
+    position: relative;
+    left: 5px;
+  }
+
+  .rightSectionContainerImage1 {
+    width: 280px;
+    height: 200px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 125px;
+    left: 5px;
+  }
 }

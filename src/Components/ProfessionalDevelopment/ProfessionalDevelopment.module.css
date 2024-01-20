@@ -50,7 +50,6 @@
   font-weight: 400;
   color: #000000;
   width: 550px;
-
 }
 
 .leftSectionFirstElement {
@@ -127,4 +126,82 @@
   border-radius: 8px;
   font-size: 15px;
   font-weight: 400;
+}
+
+
+
+/* Media query for tablet and mobile view */
+
+@media only screen and (max-width: 768px) {
+  .ProfessionalDevelopmentMainContainer {
+    height: 1170px;
+    width: 315px;
+    position: relative;
+    left: 385px;
+  }
+
+  .ProfessionalDevelopmentContainer {
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .heading {
+    font-size: 20px;
+    line-height: 25px;
+    right: 0;
+  }
+
+  .mainText {
+    font-size: 14px;
+    line-height: 19px;
+    right: 0;
+  }
+
+  .programSection {
+    flex-direction: column;
+    right: 0; 
+  }
+
+  .leftSection {
+    width: 295px;
+    height: 395px;
+  }
+
+  .leftSectionCardList {
+    width: 265px;
+     position: relative;
+    right: 12px; 
+    top: 0px;   
+  }
+
+  .CardSection {
+    width: 280px;
+    height: 1200px;
+  }
+
+  .rightCard img {
+    top: 0;
+    width: 280px;
+    position: relative;
+  }
+
+  .CardHeading {
+    position: relative;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .CardSectionText {
+    position: relative;
+    width: 270px;
+    font-size: 14px;
+  }
+  
+  .learnMoreBtn {
+    font-size: 12px;
+    bottom: 9px;
+  }
 }

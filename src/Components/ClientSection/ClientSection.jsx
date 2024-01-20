@@ -193,7 +193,7 @@ const ClientSection = () => {
         <img src="./Egis.png" alt="Client" />
       </div>
     </div>
-            </div>
+     </div>
 
   );
 };

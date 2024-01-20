@@ -85,3 +85,48 @@
 .blueBtn:hover {
   background-color: #062749;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+  .ImproveCareerMainContainer {
+width: 316px;
+height: 950px;
+position: relative;
+left: 385px;
+  }
+
+  .improveCareerContainerHeading{
+    width: 315px;
+    position: relative;
+    left: 40px;
+    padding: 10px 0;
+
+    }
+
+    .improveCareerContainerHeading h2{
+      font-size: 19px;
+      line-height: 24px;
+      font-weight: 400;
+    }
+
+    .cardContainer{
+      position: relative;
+      top: 22px;
+      width: 315px;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+  
+    }
+    .card{
+      width: 300px;
+      height: 330px;
+    }
+
+    .card h2 {
+      font-size: 26px;
+      line-height: 30px;
+    }
+    
+}

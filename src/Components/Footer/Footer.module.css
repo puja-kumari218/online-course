@@ -1,6 +1,5 @@
 .FooterMainContainer {
   background-color: #000;
-  color: #fff;
   width: 1515px;
   height: 530px;
   position: relative;
@@ -19,6 +18,8 @@
   font-size: 26px;
   font-weight: 400;
   line-height: 36px;
+  color: #fff;
+
 }
 
 .socialIcons {
@@ -46,8 +47,8 @@
 }
 
 .companyInfoHeading h2 {
-  font-size: 20px;
-  font-weight: 200;
+  font-size: 17px;
+  font-weight: 400;
   color: rgb(101, 101, 101);
 }
 
@@ -57,6 +58,9 @@
 
 .companyInfoHeading p {
   cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .BottomContainer {
@@ -67,6 +71,8 @@
   left: 220px;
   align-items: center;
   margin: 15px 0;
+  color: #fff;
+
 }
 
 hr {
@@ -81,7 +87,59 @@ hr {
   margin: 0 10px;
 
 }
+
 .headerlogo img {
   width: 90px;
   height: 35px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .FooterMainContainer {
+    width: 316px;
+    position: relative;
+    left: 385px;
+
+  }
+
+  .leftSectionHeading {
+    left: 0;
+    width: 100%;
+    top: 0;
+  }
+
+  .leftSectionHeading h2 {
+    font-size: 17px;
+    line-height: 20px;
+    padding-left: 6px;
+  }
+
+  .socialIcons {
+    top: 20px;
+    padding-left: 6px;
+  }
+
+  .rightSection {
+    width: 100%;
+    left: 0;
+    position: relative;
+    top: 37px;
+    padding: 12px;
+  }
+
+  .BottomContainer {
+    flex-direction: column;
+    position: relative;
+    top: 37px;
+    left: 0;
+    align-items: flex-start;
+  }
+
+  hr {
+    width: 315px;
+    left: 0;
+    position: relative;
+    top: 37px;
+
+  }
 }

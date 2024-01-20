@@ -90,3 +90,68 @@
     font-size: 15px;
     font-weight: 400;
 }
+
+
+  .programCardDescription {
+    font-size: 14px;
+  }
+
+  .programCardFooter button {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .greenText {
+    font-size: 14px;
+  }
+
+
+
+
+
+  @media only screen and (max-width: 768px) {
+    .ProgramsMainContainer {
+      height: 1650px;
+      width: 316px;
+      position: relative;
+      left: 386px;
+    }
+
+.programDetailsContainer{
+    display: grid;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 15px;
+}
+.programHeaderContainer>h1 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #0d0d0d;
+    line-height: 27px;
+  }
+
+
+.programCardContainer {
+    padding: 20px;
+    width: 300px;
+    height: 340px;
+}
+
+
+.programCardTitie {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.programCardDescription {
+    font-size: 13.6px;
+    font-weight: 400;
+}
+
+
+  }

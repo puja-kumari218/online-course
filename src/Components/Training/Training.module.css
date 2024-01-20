@@ -65,3 +65,60 @@
   font-size: 15px;
 
 }
+
+
+@media only screen and (max-width: 768px) {
+  .MainTrainingContainer {
+width: 316px;
+position: relative;
+left: 386px;
+  }
+
+  .trainingContainer{
+    position: relative;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+  }
+
+
+
+.leftSide{
+  width: 315px;
+  position: relative;
+  left: 0;
+  padding: 10px;
+}
+
+.leftSide h1 {
+  top: 0;
+  color: #0d0d0d;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.leftSide p {
+  position: relative;
+  top: 12px;
+  color: #161819;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+
+.rightSide {
+  width: 315px;
+  width: 315px;
+  position: relative;
+  left: 0;
+}
+
+  .numberBox {
+  position: relative;
+  left: 35px;
+  font-size: 30px;
+  font-weight: 100;
+} 
+
+}

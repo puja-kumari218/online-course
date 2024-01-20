@@ -149,5 +149,70 @@
   position: relative;
   left: 20px;
   top: 80px;
+}
 
+/* Media query for tablet and mobile view */
+@media only screen and (max-width: 768px) {
+  .comprehensiveMainContainer {
+    width: 315px;
+    position: relative;
+    left: 385px;
+  }
+
+  .comprehensiveContainer {
+    width: 315px;
+  }
+
+  .centerHeading h2 {
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .centerHeading p {
+    font-size: 13px;
+    line-height: 13px;
+    width: 316px;
+    font-weight: 400;
+    position: relative;
+  }
+
+  .cardSection {
+    flex-direction: column;
+    top: 30px;
+    padding: 20px;
+  }
+
+  .leftCard,
+  .rightCard {
+    width: 280px;
+    margin-bottom: 20px;
+    left: 0;
+    height: 440px;
+  }
+
+  .CardTitle,
+  .CardTitle1 {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 12px;
+  }
+
+  .CardText,
+  .CardText1 {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 10px;
+  }
+
+  .listContainer {
+    top: 10px;
+    font-size: 11.2px;
+    line-height: 2;
+    height: 140px;
+  }
+
+  .WhiteBtn {
+    position: relative;
+    top: 30px;
+  }
 }
