@@ -1,10 +1,4 @@
 .carouselContainer {
-  width: 1500px;
-  height: 240px;
-  margin-top: 15px;
-  width: 1500px;
-  position: relative;
-  right: 155px;
   overflow: hidden;
   background: #ffffff;
 }
@@ -33,6 +27,20 @@
   }
 }
 
+@media only screen and (min-width: 992px) {
+
+.carouselContainer {
+  width: 1500px;
+  height: 230px;
+  margin-top: 15px;
+  position: relative;
+  right: 155px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+
+
 .clientSection {
   display: flex;
   margin: 4rem 0;
@@ -51,13 +59,29 @@
   height: 90px;
 }
 
-
+}
 /* Media query for mobile view */
 @media only screen and (max-width: 768px) {
   .carouselContainer {
-    width: 314px;
-    position: relative;
-    left: 385px;
+    width: 430px;
+  }
+
+  .clientSection {
+    display: flex;
+    margin: 4rem 0;
+    animation: scroll 70s linear infinite;
+  }
+  
+  .clientItem {
+    flex: 0 0 auto;
+    width: 150px;
+    padding: 20px 0;
+    margin-right: 20px; 
+  }
+  
+  .clientItem img {
+    width: 130px;
+    height: 90px;
   }
 
 }

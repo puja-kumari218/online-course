@@ -1,7 +1,4 @@
 .ProgramsMainContainer {
-    width: 1520px;
-    position: relative;
-    right: 170px;
     background: #fafafa;
     padding-bottom: 20px;
 }
@@ -17,11 +14,9 @@
 
 .programHeaderContainer>h1 {
     margin-bottom: 10px;
-    font-size: 46px;
     font-weight: 400;
     color: #0d0d0d;
-    line-height: 46px;
-  }
+}
 
 .programHeaderContainer>p {
     margin-bottom: 10px;
@@ -29,31 +24,18 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
-  
-}
-.programDetailsContainer {
-    display: flex;
-    width: 1200px;
-    height: 550px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding: 20px 0;
-    position: relative;
-    left: 170px;
+
 }
 
 .programCardContainer {
     padding: 20px;
-    width: 520px;
-    height: 245px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 .programCardType {
@@ -71,7 +53,6 @@
 
 .programCardDescription {
     color: #3d3d4e;
-    font-size: 14px;
 }
 
 .programCardFooter button {
@@ -92,66 +73,107 @@
 }
 
 
-  .programCardDescription {
-    font-size: 14px;
-  }
 
-  .programCardFooter button {
+.programCardFooter button {
     padding: 10px;
     font-size: 14px;
-  }
+}
 
-  .greenText {
+.greenText {
     font-size: 14px;
-  }
+}
 
 
 
 
+@media only screen and (min-width: 992px) {
 
-  @media only screen and (max-width: 768px) {
+
     .ProgramsMainContainer {
-      height: 1650px;
-      width: 316px;
-      position: relative;
-      left: 386px;
+        width: 1520px;
+        position: relative;
+        right: 170px;
     }
 
-.programDetailsContainer{
-    display: grid;
-    flex-direction: row;
-    width: 100%;
-    position: relative;
-    left: 0;
-    top: 0;
-    padding: 15px;
+
+
+    .programHeaderContainer>h1 {
+        font-size: 46px;
+        line-height: 46px;
+    }
+
+
+    .programDetailsContainer {
+        display: flex;
+        width: 1200px;
+        height: 550px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 20px 0;
+        position: relative;
+        left: 170px;
+
+    }
+
+    .programCardContainer {
+        width: 520px;
+        height: 245px;
+    }
+
+
+    .programCardDescription {
+        color: #3d3d4e;
+        font-size: 14px;
+    }
+
+
 }
-.programHeaderContainer>h1 {
-    font-size: 25px;
-    font-weight: 400;
-    color: #0d0d0d;
-    line-height: 27px;
-  }
 
 
-.programCardContainer {
-    padding: 20px;
-    width: 300px;
-    height: 340px;
+
+@media only screen and (max-width: 768px) {
+    .ProgramsMainContainer {
+        height: 1640px;
+        width: 430px;
+    }
+
+    .programDetailsContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        position: relative;
+        left: 0;
+        top: 0;
+        padding: 15px;
+    }
+
+    .programHeaderContainer>h1 {
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+
+    .programCardContainer {
+        padding: 20px;
+        width: 300px;
+        height: 340px;
+    }
+
+
+    .programCardTitie {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #000000;
+    }
+
+    .programCardDescription {
+        font-size: 13.6px;
+        font-weight: 400;
+    }
+
+
 }
-
-
-.programCardTitie {
-    margin-bottom: 10px;
-    font-size: 20px;
-    font-weight: 400;
-    color: #000000;
-}
-
-.programCardDescription {
-    font-size: 13.6px;
-    font-weight: 400;
-}
-
-
-  }

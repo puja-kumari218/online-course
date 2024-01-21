@@ -37,6 +37,27 @@
   margin-right: 10px;
 }
 
+.faceBookIcon:hover {
+  color: blue;
+  background-color: #fff;
+  border-radius: 17px;
+}
+
+.TwitterIcon:hover {
+  color: cyan;
+}
+
+.InstagramIcon:hover {
+  color: #fff;
+  background-color: #d91818;
+  border-radius: 17px;
+
+}
+
+.YoutubeIcon:hover {
+  color: red;
+}
+
 .rightSection {
   width: 460px;
   display: flex;
@@ -96,67 +117,84 @@ hr {
 
 @media only screen and (max-width: 768px) {
   .FooterMainContainer {
-width: 316px;
-position: relative;
-left: 385px;
+    height: 1050px;
+    width: 430px;
+    position: relative;
+    left: 0;
   }
 
-  .leftSectionHeading{
-    width: 315px;
+  .leftSectionHeading {
+    width: 300px;
+    height: 60px;
     position: relative;
-    left: 30px;
-    }
+    left: 40px;
+  }
 
-   .leftSectionHeading h2{
-    position: relative;
-    bottom: 20px;
+
+  .leftSectionHeading h2 {
     font-size: 15px;
     line-height: 18px;
-   }
-   .socialIcons{
+  }
+
+  .socialIcons {
+    width: 315px;
+    display: flex;
+    justify-content: space-between;
     position: relative;
-    top: 13px;
-   }
-   .rightSection{
+    top: 245px;
+    left: 0px;
+    font-size: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .rightSection {
     width: 315px;
     display: flex;
     justify-content: space-around;
     position: relative;
-    left: 0px;
-    top: 70px;
-     }
+    left: 40px;
+    top: 50px;
+  }
 
-     .companyInfoHeading p {
-      font-size: 11px;
-    }
+  .companyInfoHeading p {
+    font-size: 11px;
+  }
 
-    .BottomContainer {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      width: 315px;
-      position: relative;
-      top: 90px;
-      left: 0px;
-      align-items: center;
-      margin: 15px 0;
-      font-size: 12px;
-    
-    }
-    
-    hr {
-      border: 1px solid rgb(101, 101, 101);
-      width: 300px;
-      position: relative;
-      top: 90px;
-      left: 10px;
-    }
-    
-    
-    .headerlogo img {
-display: none;
+  .BottomContainer {
+    width: 315px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 150px;
+    left: 45px;
+    margin-bottom: 30px;
+  }
 
-    }
-    
-    
+  .TermsRightSideText {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 4px;
+    text-align: center;
+  }
+
+  hr {
+    border: 1px solid rgb(101, 101, 101);
+    width: 320px;
+    position: relative;
+    top: 140px;
+    left: 40px;
+  }
+
+  .headerlogo img {
+    display: flex;
+    position: relative;
+    left: 20px;
+    width: 60px;
+    height: 30px;
+  }
+
+
 }

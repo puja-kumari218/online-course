@@ -1,3 +1,35 @@
+.MainheaderContainer {
+  background: #fafafa;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-family: "Satoshi Medium", sans-serif;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.headerlogo img {
+  height: 70px;
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+.navItems {
+  color: #161819;
+  background: #fafafa;
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 992px) {
 
   .MainheaderContainer {
@@ -8,9 +40,7 @@
   }
 
   .header {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 15px;
     font-family: "Satoshi Medium", sans-serif;
     width: 1200px;
@@ -24,15 +54,6 @@
     width: 190px;
   }
 
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-
-    to {
-      opacity: 1;
-    }
-  }
 
   .headerlogo img {
     width: 140px;
@@ -52,6 +73,7 @@
     justify-content: space-around;
     position: relative;
     left: 270px;
+    border: 1px;
   }
 
   .navItems a {
@@ -77,7 +99,7 @@
     cursor: pointer;
   }
 
-    /* Hide mobile icon by default in desktop view */
+  /* Hide mobile icon by default in desktop view */
   .mobileIcon {
     display: none;
   }
@@ -92,18 +114,14 @@
   .MainheaderContainer {
     width: 430px;
     position: relative;
-    left: 385px;
   }
 
   .header {
-    display: flex;
-    align-items: center;
     justify-content: space-around;
     width: 310px;
-
   }
 
-  .header > .leftSection {
+  .header>.leftSection {
     width: 150px;
     margin: 18px 12px;
   }
@@ -115,19 +133,16 @@
   .navItems {
     display: none;
     position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background: #fafafa;
+    top: 120px;
+    left: 100px;
     flex-direction: column;
     text-align: center;
     align-items: center;
     z-index: 1;
-    width: 310px;
-    height: 270px;
+    width: 270px;
+    height: 260px;
     font-weight: 400;
     font-size: 16px;
-    cursor: pointer;
   }
 
   .navItems.active {
@@ -142,11 +157,12 @@
     color: rgb(44, 36, 36);
     text-decoration: none;
   }
+
   .contactButton {
     display: none;
   }
 
-  .contactButtonMobile button{
+  .contactButtonMobile button {
     background-color: #ed2025;
     color: #ffffff;
     padding: 10px;
@@ -161,9 +177,11 @@
   }
 
   .mobileIcon {
-    display: block;
+    display: flex;
     cursor: pointer;
     font-size: 45px;
+    position: relative;
+    left: 90px;
   }
 
   .active {

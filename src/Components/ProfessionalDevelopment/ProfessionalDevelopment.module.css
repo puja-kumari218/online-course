@@ -1,55 +1,36 @@
 .ProfessionalDevelopmentMainContainer {
-  width: 1520px;
-  position: relative;
-  right: 170px;
   background: #fafafa;
 }
 
-.ProfessionalDevelopmentContainer {
-  padding: 90px;
-  width: 1200px;
-  position: relative;
-  left: 10.5rem;
-}
-
 .heading {
-  font-size: 45px;
+
   font-weight: 400;
   color: #0d0d0d;
-  line-height: 46px;
   position: relative;
-  right: 50px;
 }
 
 .mainText {
   color: #161819;
   margin-top: 10px;
-  font-size: 16px;
   font-weight: 400;
-  line-height: 28px;
   position: relative;
   right: 50px;
 }
 
 .programSection {
   display: flex;
-  justify-content: space-between;
-  width: 70rem;
   position: relative;
-  right: 68px;
-  height: 570px;
 }
+
 
 .leftSection {
   margin-top: 18px;
   position: relative;
-  height: 380px;
   align-items: center;
   padding: 20px;
   font-size: 15px;
   font-weight: 400;
   color: #000000;
-  width: 550px;
 }
 
 .leftSectionFirstElement {
@@ -67,8 +48,8 @@
   position: relative;
   margin-top: 19px;
   border-radius: 10px;
-  width: 500px;
   cursor: pointer;
+
 }
 
 .leftSectionCardList,
@@ -80,8 +61,6 @@
 .CardSection {
   justify-content: space-around;
   display: flex;
-  width: 460px;
-  height: 500px;
   border-radius: 20px;
   position: relative;
   top: 28px;
@@ -93,51 +72,115 @@
   left: 10px;
   top: 10px;
   color: #0d0d0d;
-  font-size: 30px;
   font-weight: 400;
 }
 
 .CardSectionText {
   position: relative;
-  left: 10px;
-  top: 20px;
-  position: relative;
-  width: 435px;
   color: #161819;
   font-size: 14px;
 }
 
 .rightCard img {
-  width: 450px;
-  height: 170px;
   padding: 9px;
   border-radius: 20px;
   position: relative;
-  top: 9px;
 }
 
 .learnMoreBtn {
-  margin-top: 40px;
   position: relative;
-  left: 9px;
-  padding: 12px;
+  margin-top: 40px;
   background: #fff;
   border: 1px solid rgb(200, 200, 200);
-  border-radius: 8px;
-  font-size: 15px;
   font-weight: 400;
+  border-radius: 8px;
 }
 
 
+@media only screen and (min-width: 992px) {
+
+  .ProfessionalDevelopmentMainContainer {
+    width: 1520px;
+    position: relative;
+    right: 170px;
+    background: #fafafa;
+  }
+
+  .ProfessionalDevelopmentContainer {
+    padding: 90px;
+    width: 1200px;
+    position: relative;
+    left: 10.5rem;
+  }
+
+  .heading {
+    font-size: 45px;
+    line-height: 46px;
+    right: 50px;
+  }
+
+
+  .mainText {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .programSection {
+    justify-content: space-between;
+    width: 70rem;
+    right: 68px;
+    height: 570px;
+  }
+
+
+  .leftSection {
+    height: 380px;
+    width: 550px;
+  }
+
+
+  .leftSectionCardList {
+    width: 500px;
+  }
+
+  .rightCard img {
+    width: 450px;
+    height: 170px;
+    position: relative;
+    top: 9px;
+  }
+
+  .CardSection {
+    width: 460px;
+    height: 500px;
+  }
+
+  .CardHeading {
+    font-size: 30px;
+  }
+
+  .CardSectionText {
+    left: 10px;
+    top: 20px;
+    width: 435px;
+  }
+
+  .learnMoreBtn {
+    left: 9px;
+    padding: 12px;
+    font-size: 15px;
+  }
+
+
+}
 
 /* Media query for tablet and mobile view */
 
 @media only screen and (max-width: 768px) {
   .ProfessionalDevelopmentMainContainer {
-    height: 1170px;
-    width: 315px;
+    height: 1100px;
+    width: 430px;
     position: relative;
-    left: 385px;
   }
 
   .ProfessionalDevelopmentContainer {
@@ -145,7 +188,6 @@
     left: 0;
     top: 0;
     padding: 20px;
-    width: 100%;
   }
 
   .heading {
@@ -156,13 +198,16 @@
 
   .mainText {
     font-size: 14px;
-    line-height: 19px;
+    line-height: 16px;
     right: 0;
   }
 
   .programSection {
+    width: 400px;
+    height: 988px;
     flex-direction: column;
-    right: 0; 
+    right: 20px;
+    align-items: center;
   }
 
   .leftSection {
@@ -172,14 +217,15 @@
 
   .leftSectionCardList {
     width: 265px;
-     position: relative;
-    right: 12px; 
-    top: 0px;   
+    position: relative;
+    right: 12px;
+    top: 0px;
   }
 
   .CardSection {
     width: 280px;
-    height: 1200px;
+    height: 650px;
+    margin-bottom: 500px;
   }
 
   .rightCard img {
@@ -193,15 +239,20 @@
     font-size: 18px;
     font-weight: 400;
   }
-  
+
   .CardSectionText {
     position: relative;
-    width: 270px;
-    font-size: 14px;
+    top: 20px;
+    left: 10px;
+    width: 260px;
+    font-size: 13px;
   }
-  
+
   .learnMoreBtn {
     font-size: 12px;
     bottom: 9px;
+    padding: 10px;
+    left: 10px;
+
   }
 }

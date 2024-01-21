@@ -154,9 +154,9 @@
 @media only screen and (max-width: 768px) {
 
   .carouselContainer {
-    width: 315px;
+    width: 430px;
     position: relative;
-    left: 385px;
+    left: 0px;
   }
 
   .TestimonialsHeaderContainer>h1 {

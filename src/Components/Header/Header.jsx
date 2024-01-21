@@ -1,35 +1,3 @@
-// import React from 'react';
-// import styles from './Header.module.css';
-// import { Link } from 'react-router-dom';
-
-// const Header = () => {
-//   return (
-//     <div className={styles.MainheaderContainer}>
-//       <div className={styles.header}>
-//         <div className={styles.leftSection}>
-//           <div className={styles.headerlogo}>
-//             <img className={styles.image} src="./Headerlogo.png" alt="logo" />
-//           </div>
-//         </div>
-//         <div className={styles.navItems}>
-//           <Link to="/online-course"> <span>HOME</span></Link>
-//           <Link to="#"> <span>SERVICES</span></Link>
-//           <Link to="#"> <span>CLIENTS</span></Link>
-//           <Link to="#"> <span>CASE STUDY</span></Link>
-//         </div>
-//         <div className={styles.contactButton}>
-//             <button>Contact Us</button>
-//           </div>
-
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Header;
-
-
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { IoMdMenu } from 'react-icons/io';

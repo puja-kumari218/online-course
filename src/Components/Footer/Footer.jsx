@@ -12,10 +12,10 @@ const Footer = () => {
             Development and Strategic Consulting,<br />
             Your Partner for Siccess</h2>
           <div className={styles.socialIcons}>
-            <FaFacebook />
-            <FaTwitter />
-            <FaInstagram />
-            <FaYoutube />
+            <FaFacebook className={styles.faceBookIcon} />
+            <FaTwitter  className={styles.TwitterIcon} />
+            <FaInstagram  className={styles.InstagramIcon} />
+            <FaYoutube  className={styles.YoutubeIcon} />
           </div>
         </div>
         <div className={styles.rightSection}>
