@@ -171,7 +171,7 @@
   .leftSection {
     width: 100%;
     position: relative;
-    left: 0;
+    left: 14px;
     top: 0;
     padding: 22px;
     box-sizing: border-box;
@@ -179,7 +179,7 @@
 
   .leftSection h2 {
     margin-top: 9.5px;
-    font-size: 28px;
+    font-size: 27px;
     font-weight: 400;
     width: 310px;
     line-height: 28px;
@@ -199,14 +199,14 @@
 
   .StartBtn {
     position: relative;
-    right: 5px;
+    right: 12px;
     width: 215px;
     margin-top: 20px;
   }
 
   .Contactbtn {
     position: relative;
-    right: 5px;
+    right: 12px;
     width: 215px;
   }
 
@@ -218,7 +218,7 @@
     width: 215px;
     height: 100px;
     position: relative;
-    left: 80px;
+    left: 73px;
     gap: 10px;
     top: 15px;
     border-radius: 7px;

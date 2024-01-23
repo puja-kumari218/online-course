@@ -181,22 +181,21 @@
     width: 430px;
     position: relative;
     left: 0px;
-    border: 1px solid red;
-
-  }
+    }
 
 
   .centerHeading h2 {
-    font-size: 22px;
-    line-height: 25px;
+    font-size: 20px;
+    position: relative;
+     top: 10px;
   }
 
   .centerHeading > p {
-    font-size: 14px;
-    width: 350px;
+    font-size: 13.5px;
+    width: 389px;
     position: relative;
-    top: 14px;
-    left: 29px;
+    top: 20px;
+    left: 22px;
     color: #161819;
   }
 
@@ -208,7 +207,6 @@
     padding: 20px;
     justify-content: center;
     align-items: center;
-    border: 1px solid green
   }
 
 
@@ -220,13 +218,11 @@
     left: 0;
     height: 410px;
     padding: 0 10px;
-    border: 1px solid green
-
   }
 
   .CardTitle,
   .CardTitle1 {
-    font-size: 19px;
+    font-size: 20px;
     padding: 12px;
     padding: 20px;
   }

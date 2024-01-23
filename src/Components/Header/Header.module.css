@@ -125,6 +125,7 @@
   .headerlogo img {
     width: 90px;
     height: 45px;
+    padding: 10px;
   }
 
   .mobileIcon {
