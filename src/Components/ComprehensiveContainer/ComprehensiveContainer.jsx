@@ -48,7 +48,7 @@ const ComprehensiveContainer = () => {
                     <FaCircle /> Build their character and competence.
                   </li>
                   <li>
-                    <FaCircle /> See their purpose and connect it with key business goals.
+                    <FaCircle /> See their purpose and connect it with key business.
                   </li>
                   <li>
                     <FaCircle /> Develop emotional resilience and agility.
