@@ -160,33 +160,37 @@
 }
 
 /* Media query for mobile view */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 502px) {
   .container {
     height: 980px;
     width: 430px;
     display: flex;
     flex-direction: column;
+    border: 1px solid green;
   }
 
   .leftSection {
     width: 100%;
     position: relative;
-    left: 14px;
+    left: 0px;
     top: 0;
-    padding: 22px;
+    padding: 24px 25px;
     box-sizing: border-box;
+    border: 1px solid rgb(29, 24, 24);
+
   }
 
   .leftSection h2 {
     margin-top: 9.5px;
-    font-size: 27px;
+    font-size: 28px;
     font-weight: 400;
     width: 310px;
     line-height: 28px;
+
   }
 
   .leftSection p{
-    font-size: 13.5px;
+    font-size: 13px;
   }
 
   .leftSectionButton {
@@ -195,6 +199,8 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    border: 1px solid rgb(62, 29, 154);
+
   }
 
   .StartBtn {
@@ -245,6 +251,8 @@
     gap: 16px;
     position: relative;
     left: 10px;
+    border: 1px solid red;
+
   }
 
   .rightSectionContainerImage {

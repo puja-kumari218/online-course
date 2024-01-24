@@ -112,14 +112,20 @@
 @media only screen and (max-width: 768px) {
   .MainheaderContainer {
     width: 100%; 
-    position: relative;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    /* align-items: center; */
+    border: 1px solid red;
+    position: relative;
+    left: 0;
+    right: 0;
+    /* padding: 0px 30px; */
   }
 
   .header {
     width: 100%;
+    /* border: 1px solid rgb(8, 204, 73); */
+
   }
 
   .headerlogo img {
@@ -133,7 +139,7 @@
     cursor: pointer;
     font-size: 30px;
     position: relative;
-    left: 300px;
+    left: 270px;
   }
 
   .navItems {
@@ -161,6 +167,7 @@
     border-bottom: 1px solid #ccc;
     color: rgb(44, 36, 36);
     text-decoration: none;
+
   }
 
   .contactButton {
