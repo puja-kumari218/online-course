@@ -76,7 +76,7 @@
 
 .programCardFooter button {
     padding: 10px;
-    font-size: 14px;
+    font-size: 13.5px;
 }
 
 .greenText {
@@ -88,20 +88,16 @@
 
 @media only screen and (min-width: 992px) {
 
-
-    .ProgramsMainContainer {
+.ProgramsMainContainer {
         width: 1520px;
         position: relative;
         right: 170px;
     }
 
-
-
     .programHeaderContainer>h1 {
         font-size: 46px;
         line-height: 46px;
     }
-
 
     .programDetailsContainer {
         display: flex;
@@ -114,7 +110,6 @@
         padding: 20px 0;
         position: relative;
         left: 170px;
-
     }
 
     .programCardContainer {
@@ -137,8 +132,6 @@
     .ProgramsMainContainer {
         height: 1640px;
         width: 100%;
-        border: 1px solid rgb(18, 20, 17);
-
     }
 
     .programDetailsContainer {
@@ -153,29 +146,25 @@
     }
 
     .programHeaderContainer>h1 {
-        /* font-size: 20px;
-        border: 1px solid rgb(131, 167, 80);
-        width: 200px; */
-        /* line-height: 27px; */
         font-size: 20px;
         width: 227px;
         position: relative;
         top: 10px;
-        left: 90px; 
-        border: 1px solid rgb(131, 167, 80);
-   
+        left: 90px;
     }
 
     .programHeaderContainer>p {
         font-size: 13px;
         position: relative;
-        left: 99px;
-        border: 1px solid rgb(68, 45, 130);
-        width: 200px;
+        left: 70px;
+        width: 290px;
         line-height: 16px;
         top: 10px;
-        }
-    
+    }
+
+    .programCardType {
+        font-size: 13px;
+    }
 
 
     .programCardContainer {
@@ -191,8 +180,7 @@
     }
 
     .programCardDescription {
-        font-size: 13.6px;
-        font-weight: 400;
+        font-size: 13px;
     }
 
 

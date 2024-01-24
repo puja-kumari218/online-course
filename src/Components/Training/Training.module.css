@@ -99,7 +99,7 @@
 
 @media only screen and (max-width: 768px) {
   .MainTrainingContainer {
-    width: 430px;
+    width: 100%;
     position: relative;
     left: 0px;
   }
@@ -125,17 +125,13 @@
 
   .leftSide h1 {
     top: 0;
-    color: #0d0d0d;
     font-size: 20px;
-    line-height: 22px;
   }
 
   .leftSide p {
     position: relative;
     top: 12px;
-    color: #161819;
     font-size: 13px;
-    line-height: 20px;
   }
 
   .rightSide {
