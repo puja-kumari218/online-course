@@ -117,7 +117,7 @@ hr {
 
 @media only screen and (max-width: 768px) {
   .FooterMainContainer {
-    height: 950px;
+    height: 650px;
     width: 100%;
     position: relative;
     left: 0;

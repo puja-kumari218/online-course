@@ -121,6 +121,7 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .leftSide h1 {
@@ -151,10 +152,10 @@
     position: relative;
     left: 35px;
   }
-  .numberBox p {
-    font-size: 14px;
+  .numberBox p{
+    font-size: 15px;
     position: relative;
-    left: 35px;  
+    left: 40px; 
   }
   
 }
