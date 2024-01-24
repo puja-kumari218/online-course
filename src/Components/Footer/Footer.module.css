@@ -117,24 +117,24 @@ hr {
 
 @media only screen and (max-width: 768px) {
   .FooterMainContainer {
-    height: 650px;
+    height: 950px;
     width: 100%;
     position: relative;
     left: 0;
   }
 
   .leftSectionHeading {
-    width: 300px;
+    width: 350px;
     height: 60px;
     position: relative;
-    left: 40px;
+    left: 50px;
   }
 
 
   .leftSectionHeading h2 {
     font-size: 20px;
     line-height: 20px;
-    width: 350px;
+    width: 360px;
     position: relative;
   }
 
@@ -144,7 +144,7 @@ hr {
     justify-content: space-between;
     position: relative;
     top: 245px;
-    left: 0px;
+    left: 10px;
     font-size: 25px;
     padding: 10px 20px;
     cursor: pointer;
@@ -155,12 +155,15 @@ hr {
     display: flex;
     justify-content: space-around;
     position: relative;
-    left: 40px;
+    left: 65px;
     top: 50px;
   }
 
   .companyInfoHeading p {
     font-size: 13px;
+    position: relative;
+    left: 5px;
+
   }
 
   .BottomContainer {
@@ -187,13 +190,13 @@ hr {
     width: 320px;
     position: relative;
     top: 140px;
-    left: 49px;
+    left: 52px;
   }
 
   .headerlogo img {
     display: flex;
     position: relative;
-    left: 20px;
+    left: 28px;
     width: 60px;
     height: 30px;
   }

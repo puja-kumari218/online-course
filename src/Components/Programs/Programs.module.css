@@ -148,16 +148,16 @@
 
     .programHeaderContainer>h1 {
         font-size: 20px;
-        width: 190px;
+        width: 330px;
         position: relative;
         top: 10px;
-        left: 95px;
+        left: 50px;
     }
 
     .programHeaderContainer>p {
         font-size: 13px;
         position: relative;
-        left: 55px;
+        left: 65px;
         width: 290px;
         line-height: 16px;
         top: 10px;
@@ -170,7 +170,7 @@
 
     .programCardContainer {
         padding: 20px;
-        width: 300px;
+        width: 280px;
         height: 340px;
     }
 

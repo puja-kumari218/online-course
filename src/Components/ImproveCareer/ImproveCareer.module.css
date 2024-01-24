@@ -97,11 +97,10 @@
   }
 
   .improveCareerContainerHeading {
-    width: 315px;
+    width: 320px;
     position: relative;
-    left: 40px;
+    left: 2px;
     padding: 10px 0;
-
   }
 
   .improveCareerContainerHeading h2 {
@@ -109,21 +108,21 @@
     line-height: 20px;
     width: 320px;
     position: relative;
-    top: 10px;
+    left: 5px;
   }
 
   .cardContainer {
     position: relative;
-    top: 22px;
-    width: 315px;
+    top: 28px;
+    align-items: center;
+    width: 300px;
     display: flex;
     flex-direction: column;
     gap: 2px;
-
   }
 
   .card {
-    width: 300px;
+    width: 290px;
     height: 300px;
   }
 
