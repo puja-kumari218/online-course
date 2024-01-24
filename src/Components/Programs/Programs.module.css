@@ -136,7 +136,9 @@
 @media only screen and (max-width: 768px) {
     .ProgramsMainContainer {
         height: 1640px;
-        width: 430px;
+        width: 100%;
+        border: 1px solid rgb(18, 20, 17);
+
     }
 
     .programDetailsContainer {
@@ -151,9 +153,29 @@
     }
 
     .programHeaderContainer>h1 {
-        font-size: 25px;
-        line-height: 27px;
+        /* font-size: 20px;
+        border: 1px solid rgb(131, 167, 80);
+        width: 200px; */
+        /* line-height: 27px; */
+        font-size: 20px;
+        width: 227px;
+        position: relative;
+        top: 10px;
+        left: 90px; 
+        border: 1px solid rgb(131, 167, 80);
+   
     }
+
+    .programHeaderContainer>p {
+        font-size: 13px;
+        position: relative;
+        left: 99px;
+        border: 1px solid rgb(68, 45, 130);
+        width: 200px;
+        line-height: 16px;
+        top: 10px;
+        }
+    
 
 
     .programCardContainer {
@@ -166,8 +188,6 @@
     .programCardTitie {
         margin-bottom: 10px;
         font-size: 20px;
-        font-weight: 400;
-        color: #000000;
     }
 
     .programCardDescription {

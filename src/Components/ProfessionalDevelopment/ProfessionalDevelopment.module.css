@@ -179,7 +179,7 @@
 @media only screen and (max-width: 768px) {
   .ProfessionalDevelopmentMainContainer {
     height: 1100px;
-    width: 430px;
+    width: 100%;
     position: relative;
   }
 
@@ -188,16 +188,31 @@
     left: 0;
     top: 0;
     padding: 20px;
+    border: 1px solid rgb(131, 167, 80);
+
   }
 
-  .heading {
-    font-size: 27px;
-    line-height: 28px;
+  .heading{
+    /* font-size: 20px;
+    line-height: 28px; */
+    font-size: 20px;
+    width: 320px;
+    position: relative;
+    top: 10px;
+    left: 25px;
+
+    /* border: 1px solid rgb(35, 99, 121); */
+
   }
 
   .mainText {
-    font-size: 13.5px;
-    right: 0;
+    font-size: 13px;
+    position: relative;
+    left: 22px;
+    /* border: 1px solid rgb(68, 45, 130); */
+    width: 320px;
+    top: 10px;
+
   }
 
   .programSection {
@@ -206,6 +221,7 @@
     flex-direction: column;
     right: 10px;
     align-items: center;
+
   }
 
   .leftSection {
@@ -218,12 +234,12 @@
     position: relative;
     right: 20px;
     top: 0px;
-    font-size: 13.5px;
+    font-size: 13px;
   }
 
   .CardSection {
     width: 310px;
-    height: 600px;
+    height: 660px;
     margin-bottom: 500px;
   }
 
@@ -235,7 +251,7 @@
 
   .CardHeading {
     position: relative;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .CardSectionText {
@@ -243,11 +259,11 @@
     top: 20px;
     left: 12px;
     width: 295px;
-    font-size: 13.5px;
+    font-size: 13px;
   }
 
   .learnMoreBtn {
-    font-size: 12px;
+    font-size: 13px;
     bottom: 8px;
     padding: 10px;
     left: 12px;

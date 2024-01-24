@@ -166,7 +166,15 @@
     width: 430px;
     display: flex;
     flex-direction: column;
+        border: 1px solid rgb(0, 0, 0);
+
   }
+  .btn {
+    font-size: 13px;
+    position: relative;
+    left: 12px;
+  }
+  
 
   .leftSection {
     width: 100%;
@@ -175,18 +183,26 @@
     top: 0;
     padding: 24px 30px;
     box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
   }
 
   .leftSection h2 {
     margin-top: 9.5px;
     font-size: 28px;
     font-weight: 400;
-    width: 370px;
+    width: 340px;
     line-height: 28px;
+    position: relative;
+    left: 12px;
+    /* border: 1px solid greenyellow; */
   }
 
   .leftSection p{
     font-size: 13px;
+    position: relative;
+    left: 14px;
+    /* border: 1px solid greenyellow; */
+    width: 337px;
   }
 
   .leftSectionButton {
@@ -195,6 +211,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    /* border: 1px solid rgb(48, 50, 45); */
   }
 
   .StartBtn {
@@ -202,14 +219,14 @@
     right: 12px;
     width: 215px;
     margin-top: 20px;
-    font-size: 13.5px;
+    font-size: 13px;
   }
 
   .Contactbtn {
     position: relative;
     right: 12px;
     width: 215px;
-    font-size: 13.5px;
+    font-size: 13px;
   }
 
   .bigButton {
@@ -220,10 +237,12 @@
     width: 215px;
     height: 100px;
     position: relative;
-    left: 73px;
+    left: 70px;
     gap: 10px;
     top: 15px;
     border-radius: 7px;
+    font-size: 13px;
+
   }
 
   .userBtnIcon {
