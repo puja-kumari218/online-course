@@ -114,24 +114,22 @@
     width: 100%; 
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
     border: 1px solid red;
     position: relative;
     left: 0;
     right: 0;
-    /* padding: 0px 30px; */
   }
 
   .header {
     width: 100%;
-    /* border: 1px solid rgb(8, 204, 73); */
-
   }
 
   .headerlogo img {
     width: 90px;
     height: 45px;
-    padding: 10px;
+    padding: 8px;
+    position: relative;
+    left: 19px;
   }
 
   .mobileIcon {
@@ -139,7 +137,7 @@
     cursor: pointer;
     font-size: 30px;
     position: relative;
-    left: 270px;
+    left: 250px;
   }
 
   .navItems {
