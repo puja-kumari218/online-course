@@ -160,14 +160,20 @@
   }
 
   .TestimonialsHeaderContainer>h1 {
-    font-size: 23px;
-    font-weight: 400;
+    font-size: 20px;
+    width: 320px;
+    position: relative;
+    top: 10px;
+    left: 40px;
   }
 
   .TestimonialsHeaderContainer>p {
-    font-size: 15px;
-    line-height: 20px;
-    margin-bottom: 10px;
+    font-size: 13px;
+    position: relative;
+    left: 40px;
+    top: 16px;
+    width: 320px;
+
   }
 
   .slider {
@@ -182,4 +188,9 @@
   .cardLeftSection {
     right: 0;
   }
+  .TestimonialsHeaderContainer>p {
+    font-size: 13px;
+  }
+  
+
 }

@@ -124,28 +124,38 @@
   }
 
   .leftSide h1 {
-    top: 0;
     font-size: 20px;
+    width: 320px;
+    position: relative;
+    top: 10px;
+    left: 25px;
   }
 
   .leftSide p {
-    position: relative;
-    top: 12px;
     font-size: 13px;
+    position: relative;
+    left: 24px;
+    top: 16px;
+    width: 320px;
   }
 
   .rightSide {
     width: 315px;
-    width: 315px;
+    height: 460px;
     position: relative;
-    left: 40px;
+    left: 52px;
+    top: 5px;
   }
 
-  .numberBox {
+  .numberBox h1{
     position: relative;
     left: 35px;
-    font-size: 28px;
-    font-weight: 100;
   }
-
+  .numberBox p {
+    font-size: 13px;
+    position: relative;
+    left: 35px;
+  
+  }
+  
 }

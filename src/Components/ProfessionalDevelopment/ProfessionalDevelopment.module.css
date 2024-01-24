@@ -188,28 +188,20 @@
     left: 0;
     top: 0;
     padding: 20px;
-    border: 1px solid rgb(131, 167, 80);
-
   }
 
   .heading{
-    /* font-size: 20px;
-    line-height: 28px; */
     font-size: 20px;
     width: 320px;
     position: relative;
     top: 10px;
     left: 25px;
-
-    /* border: 1px solid rgb(35, 99, 121); */
-
   }
 
   .mainText {
     font-size: 13px;
     position: relative;
     left: 22px;
-    /* border: 1px solid rgb(68, 45, 130); */
     width: 320px;
     top: 10px;
 
