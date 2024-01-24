@@ -26,7 +26,6 @@
 
 .navItems {
   color: #161819;
-  /* background: #fafafa; */
   cursor: pointer;
 }
 
@@ -114,7 +113,6 @@
     width: 100%; 
     display: flex;
     justify-content: space-around;
-    border: 1px solid red;
     position: relative;
     left: 0;
     right: 0;
@@ -129,7 +127,7 @@
     height: 45px;
     padding: 8px;
     position: relative;
-    left: 19px;
+    left: 25px;
   }
 
   .mobileIcon {
